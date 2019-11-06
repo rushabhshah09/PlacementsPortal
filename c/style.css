@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(photo.jpg);
+    background-size: 100%;
+    background-positon: center;
+    font-family: sans-serif;
+}
+.login-box{
+    width: 320px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.login-box1{
+    width: 520px;
+    height: 1100px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 200px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box1 p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="signup"]
+{
+    border: none;
+    outline: none;
+
+    width: 80px;
+    height: 40px;
+    background: #4caf50;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+.login-box input[type="signup"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.login-box a:hover
+{
+    color: #39dc79;
+}
+}
+.login-box1 input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box1 input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box1 input[type="text1"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    width:450px;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box1 input[type="text2"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    width:100px;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login-box1 input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box1 input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.login-box1 a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.login-box1 a:hover
+{
+    color: #39dc79;
+}
+
+#blogin_btn{
+      border: none;
+    outline: none;
+
+    height: 40px;
+    background: #4caf50;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+
+.login-box1 input[type="button"]:hover
+{
+    cursor: pointer;
+    background: #4caf50;
+    color: #000;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #4CAF50;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:before {
+  content: '\00ab';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+ left: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-left: 25px;
+}
+
+.button:hover span:before {
+  opacity: 1;
+  left: 0;
+}
+
+.ctable{
+    align-self: center;
+}
